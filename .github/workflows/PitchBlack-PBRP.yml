@@ -19,11 +19,11 @@ on:
       DEVICE_TREE:
         description: 'Custom Recovery Tree' # Your already made Device Tree for TWRP
         required: true
-        default: 'https://github.com/BerseusBerat/pb_recovery_rosemary'
+        default: 'https://github.com/BerseusBerat/PBRP-TREE-rosemary'
       DEVICE_TREE_BRANCH:
         description: 'Custom Recovery Tree Branch' # Your Device Tree Branch, make sure it's right.
         required: true
-        default: 'android-12.1'
+        default: 'pb_android-12.1'
       DEVICE_PATH:
         description: 'Specify your Device Path' # As is, just like your DEVICE_PATH in your BoardConfig.mk
         required: true
